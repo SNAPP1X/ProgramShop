@@ -58,6 +58,12 @@
     <Compile Include="DLC\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DLC\CartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DLC\CartForm.Designer.cs">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DLC\GamesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,13 +88,66 @@
     <Compile Include="DLC\ProgramsForm.Designer.cs">
       <DependentUpon>ProgramsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Games\CsGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\CsGameForm.Designer.cs">
+      <DependentUpon>CsGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\DotaGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\DotaGameForm.Designer.cs">
+      <DependentUpon>DotaGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\ForzaGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\ForzaGameForm.Designer.cs">
+      <DependentUpon>ForzaGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\GtaGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\GtaGameForm.Designer.cs">
+      <DependentUpon>GtaGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\HuntGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\HuntGameForm.Designer.cs">
+      <DependentUpon>HuntGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\MineGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\MineGameForm.Designer.cs">
+      <DependentUpon>MineGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\OsuGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\OsuGameForm.Designer.cs">
+      <DependentUpon>OsuGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\SkyGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\SkyGameForm.Designer.cs">
+      <DependentUpon>SkyGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Games\ValGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Games\ValGameForm.Designer.cs">
+      <DependentUpon>ValGameForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogoForm.Designer.cs">
       <DependentUpon>LogoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MailVerify.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +161,60 @@
       <DependentUpon>ProfileForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Programs\IjProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\IjProgramForm.Designer.cs">
+      <DependentUpon>IjProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\PowerpointProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\PowerpointProgramForm.Designer.cs">
+      <DependentUpon>PowerpointProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\PsProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\PsProgramForm.Designer.cs">
+      <DependentUpon>PsProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\SteamProgramForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\SteamProgramForms.Designer.cs">
+      <DependentUpon>SteamProgramForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\VisioProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\VisioProgramForm.Designer.cs">
+      <DependentUpon>VisioProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\VkProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\VkProgramForm.Designer.cs">
+      <DependentUpon>VkProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\VsProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\VsProgramForm.Designer.cs">
+      <DependentUpon>VsProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\WordProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\WordProgramForm.Designer.cs">
+      <DependentUpon>WordProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\YoutubeProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programs\YoutubeProgramForm.Designer.cs">
+      <DependentUpon>YoutubeProgramForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrForm.cs">
       <SubType>Form</SubType>
@@ -115,6 +228,9 @@
     <EmbeddedResource Include="DLC\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DLC\CartForm.resx">
+      <DependentUpon>CartForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DLC\GamesForm.resx">
       <DependentUpon>GamesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +243,33 @@
     <EmbeddedResource Include="DLC\ProgramsForm.resx">
       <DependentUpon>ProgramsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Games\CsGameForm.resx">
+      <DependentUpon>CsGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\DotaGameForm.resx">
+      <DependentUpon>DotaGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\ForzaGameForm.resx">
+      <DependentUpon>ForzaGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\GtaGameForm.resx">
+      <DependentUpon>GtaGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\HuntGameForm.resx">
+      <DependentUpon>HuntGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\MineGameForm.resx">
+      <DependentUpon>MineGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\OsuGameForm.resx">
+      <DependentUpon>OsuGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\SkyGameForm.resx">
+      <DependentUpon>SkyGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Games\ValGameForm.resx">
+      <DependentUpon>ValGameForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogoForm.resx">
       <DependentUpon>LogoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +278,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DLC\ProfileForm.resx">
       <DependentUpon>ProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\IjProgramForm.resx">
+      <DependentUpon>IjProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\PowerpointProgramForm.resx">
+      <DependentUpon>PowerpointProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\PsProgramForm.resx">
+      <DependentUpon>PsProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\SteamProgramForms.resx">
+      <DependentUpon>SteamProgramForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\VisioProgramForm.resx">
+      <DependentUpon>VisioProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\VkProgramForm.resx">
+      <DependentUpon>VkProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\VsProgramForm.resx">
+      <DependentUpon>VsProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\WordProgramForm.resx">
+      <DependentUpon>WordProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programs\YoutubeProgramForm.resx">
+      <DependentUpon>YoutubeProgramForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -185,6 +355,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-пользователь-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-youtube-play-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-vk-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-visio-2019-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-word-2019-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-photoshop-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecraft_logo_icon_248454.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-forza-horizon-4-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-osu-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-дота-2-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klipartz.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-steam-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-visual-studio-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-intellij-idea-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-powerpoint-2019-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-counter-strike-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-valorant-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-skyrim-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gta-5-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-корзина-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

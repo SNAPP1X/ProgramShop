@@ -24,13 +24,6 @@ namespace ProgramShop
             InitializeComponent();
         }
 
-        private void RegistrForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            this.Dispose();
-            AuthForm auth = new AuthForm();
-            auth.Visible = true;
-        }
-
         private void sign_in_Click(object sender, EventArgs e)
         {
             this.Dispose();
@@ -55,14 +48,12 @@ namespace ProgramShop
             sign_in_lb.ForeColor= Color.RoyalBlue;
         }
 
-        private void sign_up_btn_Click(object sender, EventArgs e)
+        private void close_registr_btn_Click(object sender, EventArgs e)
         {
-            string MyEmailAdress = "alakey001@yandex.ru";
-            string RecEmailAdress = "nok030@yandex.ru";
-            string Subject = "Title";
-            string Body = "22";
-            string AuthorizationCode = "03102004@2018";
-            MailVerify.SendMailMessage(MyEmailAdress, RecEmailAdress, Subject, Body, AuthorizationCode);
+            this.Dispose();
+            AuthForm auth = new AuthForm();
+            auth.Visible = true;
+
         }
     }
 }

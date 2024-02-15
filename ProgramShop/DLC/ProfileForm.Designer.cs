@@ -28,27 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.avatar = new System.Windows.Forms.PictureBox();
             this.name = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lvl_lb = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bought_lb = new System.Windows.Forms.Label();
+            this.avatar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.avatar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // avatar
-            // 
-            this.avatar.Image = global::ProgramShop.Properties.Resources.icons8_пользователь_100;
-            this.avatar.Location = new System.Drawing.Point(60, 102);
-            this.avatar.Name = "avatar";
-            this.avatar.Size = new System.Drawing.Size(100, 100);
-            this.avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.avatar.TabIndex = 0;
-            this.avatar.TabStop = false;
-            this.avatar.Click += new System.EventHandler(this.avatar_Click);
-            this.avatar.MouseEnter += new System.EventHandler(this.avatar_MouseEnter);
-            this.avatar.MouseLeave += new System.EventHandler(this.avatar_MouseLeave);
             // 
             // name
             // 
@@ -102,18 +89,30 @@
             this.bought_lb.TabIndex = 6;
             this.bought_lb.Text = "0";
             // 
+            // avatar
+            // 
+            this.avatar.Location = new System.Drawing.Point(68, 103);
+            this.avatar.Name = "avatar";
+            this.avatar.Size = new System.Drawing.Size(90, 90);
+            this.avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.avatar.TabIndex = 7;
+            this.avatar.TabStop = false;
+            this.avatar.Click += new System.EventHandler(this.avatar_Click);
+            this.avatar.MouseEnter += new System.EventHandler(this.avatar_MouseEnter);
+            this.avatar.MouseLeave += new System.EventHandler(this.avatar_MouseLeave);
+            // 
             // ProfileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(241)))), ((int)(((byte)(222)))));
             this.ClientSize = new System.Drawing.Size(670, 526);
+            this.Controls.Add(this.avatar);
             this.Controls.Add(this.bought_lb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lvl_lb);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.name);
-            this.Controls.Add(this.avatar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ProfileForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -125,12 +124,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox avatar;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lvl_lb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label bought_lb;
+        private System.Windows.Forms.PictureBox avatar;
     }
 }

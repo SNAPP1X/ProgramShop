@@ -1,4 +1,6 @@
 ﻿using ProgramShop.DLC;
+using ProgramShop.Games;
+using ProgramShop.Programs;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +15,17 @@ namespace ProgramShop
 {
     public partial class MainForm : Form
     {
+
+        ProfileForm profileForm = new ProfileForm();
+        HomeForm homeForm;
+        ProgramsForm programsForm;
+        GamesForm gamesForm;
+        LibraryForm libraryForm = new LibraryForm();
+        AboutForm aboutForm = new AboutForm();
+        CartForm cartForm = new CartForm();
+        Point LastPoint;
         private Form activeForm;
         private Button currentButton;
-        Point LastPoint;
         public MainForm()
         {
             InitializeComponent();
@@ -24,6 +34,7 @@ namespace ProgramShop
             games_btn.FlatAppearance.BorderSize = 0;
             library_btn.FlatAppearance.BorderSize = 0;
             about_btn.FlatAppearance.BorderSize = 0;
+
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -39,7 +50,13 @@ namespace ProgramShop
         private void MainForm_Load(object sender, EventArgs e)
         {
             flowPanelMenu.Hide();
-            OpenChildForm(new HomeForm(), sender);
+            homeForm = new HomeForm(this);
+            programsForm = new ProgramsForm(this);
+            gamesForm = new GamesForm(this);
+
+            OpenChildForm(homeForm, sender);
+
+            
         }
 
         private void menu_btn_Click(object sender, EventArgs e)
@@ -56,7 +73,7 @@ namespace ProgramShop
             else
                 flowPanelMenu.Visible = true;
         }
-        private void OpenChildForm(Form childForm, object btnSender)
+        public void OpenChildForm(Form childForm, object btnSender)
         {
             ActivateButton(btnSender);
             activeForm = childForm;
@@ -68,7 +85,7 @@ namespace ProgramShop
             childForm.BringToFront();
             childForm.Show();
         }
-        private void ActivateButton(object btnSender)
+        public void ActivateButton(object btnSender)
         {
             if (btnSender != null && btnSender is Button)
             {
@@ -92,8 +109,8 @@ namespace ProgramShop
         }
 
         private void home_btn_Click(object sender, EventArgs e)
-        {   
-            OpenChildForm(new HomeForm(), sender);
+        {
+            OpenChildForm(homeForm, sender);
             home_btn.FlatAppearance.BorderSize = 0;
             home_btn.BackColor = Color.FromArgb(253, 241, 222);
             programs_btn.BackColor = Color.FromArgb(255, 224, 192);
@@ -102,9 +119,9 @@ namespace ProgramShop
             about_btn.BackColor = Color.FromArgb(255, 224, 192);
         }
 
-        private void programs_btn_Click(object sender, EventArgs e)
+        public void programs_btn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ProgramsForm(), sender);
+            OpenChildForm(programsForm, sender);
             programs_btn.FlatAppearance.BorderSize = 0;
             home_btn.BackColor = Color.FromArgb(255, 224, 192);
             programs_btn.BackColor = Color.FromArgb(253, 241, 222);
@@ -115,7 +132,7 @@ namespace ProgramShop
 
         private void games_btn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new GamesForm(), sender);
+            OpenChildForm(gamesForm, sender);
             games_btn.FlatAppearance.BorderSize = 0;
             home_btn.BackColor = Color.FromArgb(255, 224, 192);
             programs_btn.BackColor = Color.FromArgb(255, 224, 192);
@@ -126,7 +143,7 @@ namespace ProgramShop
 
         private void library_btn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new LibraryForm(), sender);
+            OpenChildForm(libraryForm, sender);
             library_btn.FlatAppearance.BorderSize = 0;
             home_btn.BackColor = Color.FromArgb(255, 224, 192);
             programs_btn.BackColor = Color.FromArgb(255, 224, 192);
@@ -137,7 +154,7 @@ namespace ProgramShop
 
         private void about_btn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AboutForm(), sender);
+            OpenChildForm(aboutForm, sender);
             about_btn.FlatAppearance.BorderSize = 0;
             home_btn.BackColor = Color.FromArgb(255, 224, 192);
             programs_btn.BackColor = Color.FromArgb(255, 224, 192);
@@ -148,7 +165,12 @@ namespace ProgramShop
 
         private void profile_btn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ProfileForm(), sender);
+            OpenChildForm(profileForm, sender);
+        }
+
+        private void cart_btn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(cartForm, sender);
         }
     }
 }

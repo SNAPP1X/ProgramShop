@@ -39,6 +39,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.close_registr_btn = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,7 +118,6 @@
             this.sign_up_btn.TabIndex = 6;
             this.sign_up_btn.Text = "Sign up";
             this.sign_up_btn.UseVisualStyleBackColor = true;
-            this.sign_up_btn.Click += new System.EventHandler(this.sign_up_btn_Click);
             // 
             // textBox1
             // 
@@ -160,6 +160,17 @@
             this.panel1.Size = new System.Drawing.Size(498, 424);
             this.panel1.TabIndex = 10;
             // 
+            // close_registr_btn
+            // 
+            this.close_registr_btn.AutoSize = true;
+            this.close_registr_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.close_registr_btn.Location = new System.Drawing.Point(848, 2);
+            this.close_registr_btn.Name = "close_registr_btn";
+            this.close_registr_btn.Size = new System.Drawing.Size(24, 24);
+            this.close_registr_btn.TabIndex = 11;
+            this.close_registr_btn.Text = "X";
+            this.close_registr_btn.Click += new System.EventHandler(this.close_registr_btn_Click);
+            // 
             // RegistrForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,14 +178,16 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(241)))), ((int)(((byte)(222)))));
             this.ClientSize = new System.Drawing.Size(874, 579);
+            this.Controls.Add(this.close_registr_btn);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistrForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrForm";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegistrForm_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -191,5 +204,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.Button sign_up_btn;
+        private System.Windows.Forms.Label close_registr_btn;
     }
 }

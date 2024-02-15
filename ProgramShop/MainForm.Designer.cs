@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.flowPanelMenu = new System.Windows.Forms.Panel();
             this.about_btn = new System.Windows.Forms.Button();
             this.library_btn = new System.Windows.Forms.Button();
@@ -36,12 +38,15 @@
             this.programs_btn = new System.Windows.Forms.Button();
             this.home_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.exit_lb = new System.Windows.Forms.Label();
-            this.main_panel = new System.Windows.Forms.Panel();
+            this.cart_btn = new System.Windows.Forms.PictureBox();
             this.profile_btn = new System.Windows.Forms.PictureBox();
+            this.exit_lb = new System.Windows.Forms.Label();
             this.menu_btn = new System.Windows.Forms.PictureBox();
+            this.main_panel = new System.Windows.Forms.Panel();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.flowPanelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cart_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profile_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menu_btn)).BeginInit();
             this.SuspendLayout();
@@ -134,6 +139,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel2.Controls.Add(this.cart_btn);
             this.panel2.Controls.Add(this.profile_btn);
             this.panel2.Controls.Add(this.exit_lb);
             this.panel2.Controls.Add(this.menu_btn);
@@ -143,28 +149,18 @@
             this.panel2.Size = new System.Drawing.Size(670, 53);
             this.panel2.TabIndex = 1;
             // 
-            // exit_lb
+            // cart_btn
             // 
-            this.exit_lb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cart_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.exit_lb.AutoSize = true;
-            this.exit_lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.exit_lb.Location = new System.Drawing.Point(644, 2);
-            this.exit_lb.Name = "exit_lb";
-            this.exit_lb.Size = new System.Drawing.Size(24, 24);
-            this.exit_lb.TabIndex = 1;
-            this.exit_lb.Text = "X";
-            this.exit_lb.Click += new System.EventHandler(this.exit_lb_Click);
-            // 
-            // main_panel
-            // 
-            this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.main_panel.Location = new System.Drawing.Point(204, 53);
-            this.main_panel.Name = "main_panel";
-            this.main_panel.Size = new System.Drawing.Size(670, 526);
-            this.main_panel.TabIndex = 2;
-            this.main_panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mainPanel_MouseDown);
-            this.main_panel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mainPanel_MouseMove);
+            this.cart_btn.Image = global::ProgramShop.Properties.Resources.icons8_корзина_48;
+            this.cart_btn.Location = new System.Drawing.Point(467, 4);
+            this.cart_btn.Name = "cart_btn";
+            this.cart_btn.Size = new System.Drawing.Size(48, 48);
+            this.cart_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.cart_btn.TabIndex = 3;
+            this.cart_btn.TabStop = false;
+            this.cart_btn.Click += new System.EventHandler(this.cart_btn_Click);
             // 
             // profile_btn
             // 
@@ -179,16 +175,45 @@
             this.profile_btn.TabStop = false;
             this.profile_btn.Click += new System.EventHandler(this.profile_btn_Click);
             // 
+            // exit_lb
+            // 
+            this.exit_lb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.exit_lb.AutoSize = true;
+            this.exit_lb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.exit_lb.Location = new System.Drawing.Point(644, 2);
+            this.exit_lb.Name = "exit_lb";
+            this.exit_lb.Size = new System.Drawing.Size(24, 24);
+            this.exit_lb.TabIndex = 1;
+            this.exit_lb.Text = "X";
+            this.exit_lb.Click += new System.EventHandler(this.exit_lb_Click);
+            // 
             // menu_btn
             // 
             this.menu_btn.Image = global::ProgramShop.Properties.Resources.icons8_menu_48;
-            this.menu_btn.Location = new System.Drawing.Point(6, 2);
+            this.menu_btn.Location = new System.Drawing.Point(6, 3);
             this.menu_btn.Name = "menu_btn";
             this.menu_btn.Size = new System.Drawing.Size(48, 48);
             this.menu_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.menu_btn.TabIndex = 0;
             this.menu_btn.TabStop = false;
             this.menu_btn.Click += new System.EventHandler(this.menu_btn_Click);
+            // 
+            // main_panel
+            // 
+            this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.main_panel.Location = new System.Drawing.Point(204, 53);
+            this.main_panel.Name = "main_panel";
+            this.main_panel.Size = new System.Drawing.Size(670, 526);
+            this.main_panel.TabIndex = 2;
+            this.main_panel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mainPanel_MouseDown);
+            this.main_panel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mainPanel_MouseMove);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "k7.jpg");
             // 
             // MainForm
             // 
@@ -209,6 +234,7 @@
             this.flowPanelMenu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cart_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profile_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menu_btn)).EndInit();
             this.ResumeLayout(false);
@@ -219,15 +245,17 @@
 
         private System.Windows.Forms.Panel flowPanelMenu;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel main_panel;
         private System.Windows.Forms.PictureBox menu_btn;
         private System.Windows.Forms.Label exit_lb;
-        private System.Windows.Forms.Button home_btn;
         private System.Windows.Forms.Button programs_btn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button games_btn;
         private System.Windows.Forms.Button about_btn;
         private System.Windows.Forms.Button library_btn;
         private System.Windows.Forms.PictureBox profile_btn;
+        private System.Windows.Forms.ImageList imageList1;
+        public System.Windows.Forms.Panel main_panel;
+        public System.Windows.Forms.Button home_btn;
+        private System.Windows.Forms.PictureBox cart_btn;
     }
 }

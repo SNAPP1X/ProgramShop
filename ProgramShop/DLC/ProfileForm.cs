@@ -15,6 +15,7 @@ namespace ProgramShop
         public ProfileForm()
         {
             InitializeComponent();
+            this.avatar.BackgroundImage = global::ProgramShop.Properties.Resources.icons8_пользователь_100;
         }
 
         private void avatar_MouseEnter(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace ProgramShop
         private void avatar_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Image Files(*.BMP;*.JPG;*.PNG;*.GIF)|*.BMP;*.JPG;*.PNG;*.GIF|All files(*.*)|*.*";
+            ofd.Filter = "Image Files(*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|All files(*.*)|*.*";
 
             if(ofd.ShowDialog() == DialogResult.OK)
             {
