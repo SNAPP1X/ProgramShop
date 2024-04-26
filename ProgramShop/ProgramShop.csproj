@@ -64,6 +64,12 @@
     <Compile Include="DLC\CartForm.Designer.cs">
       <DependentUpon>CartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DLC\DescProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DLC\DescProduct.Designer.cs">
+      <DependentUpon>DescProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="DLC\GamesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DLC\CartForm.resx">
       <DependentUpon>CartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DLC\DescProduct.resx">
+      <DependentUpon>DescProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DLC\GamesForm.resx">
       <DependentUpon>GamesForm.cs</DependentUpon>
