@@ -1,3 +1,1 @@
-![image](https://github.com/SNAPP1X/ProgramShop/assets/101673454/4a6f8700-d6d5-453b-8775-d4b00b9424ea)
-![image](https://github.com/SNAPP1X/ProgramShop/assets/101673454/27ae2494-9f27-4cc6-be60-caae5e5f2e1a)
-
+![image](https://github.com/SNAPP1X/ProgramShop/assets/101673454/c52c09d2-9cd4-45f6-a98d-9267bc8b4624)
