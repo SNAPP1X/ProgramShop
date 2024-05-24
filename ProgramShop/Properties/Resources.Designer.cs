@@ -63,9 +63,9 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_counter_strike_240 {
+        internal static System.Drawing.Bitmap CsIcon {
             get {
-                object obj = ResourceManager.GetObject("icons8-counter-strike-240", resourceCulture);
+                object obj = ResourceManager.GetObject("CsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_forza_horizon_4_240 {
+        internal static System.Drawing.Bitmap DotaIcon {
             get {
-                object obj = ResourceManager.GetObject("icons8-forza-horizon-4-240", resourceCulture);
+                object obj = ResourceManager.GetObject("DotaIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_gta_5_240 {
+        internal static System.Drawing.Bitmap ForzaIcon {
             get {
-                object obj = ResourceManager.GetObject("icons8-gta-5-240", resourceCulture);
+                object obj = ResourceManager.GetObject("ForzaIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,19 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_intellij_idea_240 {
+        internal static System.Drawing.Bitmap GtaIcon {
             get {
-                object obj = ResourceManager.GetObject("icons8-intellij-idea-240", resourceCulture);
+                object obj = ResourceManager.GetObject("GtaIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HuntIcon {
+            get {
+                object obj = ResourceManager.GetObject("HuntIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,117 +115,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_menu_48 {
             get {
-                object obj = ResourceManager.GetObject("icons8-menu-48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_microsoft_powerpoint_2019_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-microsoft-powerpoint-2019-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_microsoft_visio_2019_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-microsoft-visio-2019-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_microsoft_word_2019_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-microsoft-word-2019-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_osu_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-osu-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_photoshop_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-photoshop-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_skyrim_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-skyrim-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_steam_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-steam-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_valorant_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-valorant-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_visual_studio_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-visual-studio-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_vk_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-vk-240", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_youtube_play_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-youtube-play-240", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_menu_48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -225,17 +125,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_гость_мужчина_48 {
             get {
-                object obj = ResourceManager.GetObject("icons8-гость-мужчина-48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_дота_2_240 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-дота-2-240", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_гость_мужчина_48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -245,7 +135,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_корзина_48 {
             get {
-                object obj = ResourceManager.GetObject("icons8-корзина-48", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_корзина_48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -255,7 +145,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_пользователь_100 {
             get {
-                object obj = ResourceManager.GetObject("icons8-пользователь-100", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_пользователь_100", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -265,7 +155,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_пользователь_100__1_ {
             get {
-                object obj = ResourceManager.GetObject("icons8-пользователь-100 (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_пользователь_100__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -275,7 +165,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_пользователь_96 {
             get {
-                object obj = ResourceManager.GetObject("icons8-пользователь-96", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_пользователь_96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -285,7 +175,7 @@ namespace ProgramShop.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap icons8_пользователь_мужчина_в_кружке_96 {
             get {
-                object obj = ResourceManager.GetObject("icons8-пользователь-мужчина-в-кружке-96", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8_пользователь_мужчина_в_кружке_96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +183,19 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap klipartz_com__1_ {
+        internal static System.Drawing.Bitmap Image1 {
             get {
-                object obj = ResourceManager.GetObject("klipartz.com (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("Image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IntIcon {
+            get {
+                object obj = ResourceManager.GetObject("IntIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +223,9 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minecraft_logo_icon_248454 {
+        internal static System.Drawing.Bitmap MinecraftIcon {
             get {
-                object obj = ResourceManager.GetObject("minecraft_logo_icon_248454", resourceCulture);
+                object obj = ResourceManager.GetObject("MinecraftIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +233,109 @@ namespace ProgramShop.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Yellow_and_Black_Online_Shop_Business_Logo {
+        internal static System.Drawing.Bitmap OsuIcon {
             get {
-                object obj = ResourceManager.GetObject("Yellow and Black Online Shop Business Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("OsuIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PhotoIcon {
+            get {
+                object obj = ResourceManager.GetObject("PhotoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PowerIcon {
+            get {
+                object obj = ResourceManager.GetObject("PowerIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ScyrimIcon {
+            get {
+                object obj = ResourceManager.GetObject("ScyrimIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SteamIcon {
+            get {
+                object obj = ResourceManager.GetObject("SteamIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ValorantIcon {
+            get {
+                object obj = ResourceManager.GetObject("ValorantIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VisioIcon {
+            get {
+                object obj = ResourceManager.GetObject("VisioIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VisualIcon {
+            get {
+                object obj = ResourceManager.GetObject("VisualIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VkIcon {
+            get {
+                object obj = ResourceManager.GetObject("VkIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WordIcon {
+            get {
+                object obj = ResourceManager.GetObject("WordIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YoutubeIcon {
+            get {
+                object obj = ResourceManager.GetObject("YoutubeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

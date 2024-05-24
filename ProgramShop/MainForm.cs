@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace ProgramShop
 {
@@ -22,10 +23,12 @@ namespace ProgramShop
         GamesForm gamesForm;
         LibraryForm libraryForm = new LibraryForm();
         AboutForm aboutForm = new AboutForm();
-        CartForm cartForm = new CartForm();
+        ShoppingCart cart = new ShoppingCart();
+        CartForm cartForm;
         Point LastPoint;
         private Form activeForm;
         private Button currentButton;
+
         public MainForm()
         {
             InitializeComponent();
@@ -34,6 +37,8 @@ namespace ProgramShop
             games_btn.FlatAppearance.BorderSize = 0;
             library_btn.FlatAppearance.BorderSize = 0;
             about_btn.FlatAppearance.BorderSize = 0;
+
+            cartForm = new CartForm(cart);
 
         }
 
@@ -55,8 +60,6 @@ namespace ProgramShop
             gamesForm = new GamesForm(this);
 
             OpenChildForm(homeForm, sender);
-
-            
         }
 
         private void menu_btn_Click(object sender, EventArgs e)

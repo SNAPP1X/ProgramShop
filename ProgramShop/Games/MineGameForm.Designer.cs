@@ -68,7 +68,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.minecraft_logo_icon_248454;
+            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.MinecraftIcon;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 121);

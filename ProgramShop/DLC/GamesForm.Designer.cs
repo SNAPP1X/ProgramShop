@@ -70,7 +70,7 @@
             // dota_game_btn
             // 
             this.dota_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dota_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_дота_2_240;
+            this.dota_game_btn.Image = global::ProgramShop.Properties.Resources.DotaIcon;
             this.dota_game_btn.Location = new System.Drawing.Point(3, 3);
             this.dota_game_btn.Name = "dota_game_btn";
             this.dota_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -82,7 +82,7 @@
             // mine_game_btn
             // 
             this.mine_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mine_game_btn.Image = global::ProgramShop.Properties.Resources.minecraft_logo_icon_248454;
+            this.mine_game_btn.Image = global::ProgramShop.Properties.Resources.MinecraftIcon;
             this.mine_game_btn.Location = new System.Drawing.Point(218, 3);
             this.mine_game_btn.Name = "mine_game_btn";
             this.mine_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -94,7 +94,7 @@
             // forza_game_btn
             // 
             this.forza_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.forza_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_forza_horizon_4_240;
+            this.forza_game_btn.Image = global::ProgramShop.Properties.Resources.ForzaIcon;
             this.forza_game_btn.Location = new System.Drawing.Point(433, 3);
             this.forza_game_btn.Name = "forza_game_btn";
             this.forza_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -106,7 +106,7 @@
             // osu_game_btn
             // 
             this.osu_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.osu_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_osu_240;
+            this.osu_game_btn.Image = global::ProgramShop.Properties.Resources.OsuIcon;
             this.osu_game_btn.Location = new System.Drawing.Point(3, 174);
             this.osu_game_btn.Name = "osu_game_btn";
             this.osu_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -118,7 +118,7 @@
             // hunt_game_btn
             // 
             this.hunt_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hunt_game_btn.Image = global::ProgramShop.Properties.Resources.klipartz_com__1_;
+            this.hunt_game_btn.Image = global::ProgramShop.Properties.Resources.HuntIcon;
             this.hunt_game_btn.Location = new System.Drawing.Point(218, 174);
             this.hunt_game_btn.Name = "hunt_game_btn";
             this.hunt_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -130,7 +130,7 @@
             // cs_game_btn
             // 
             this.cs_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cs_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_counter_strike_240;
+            this.cs_game_btn.Image = global::ProgramShop.Properties.Resources.CsIcon;
             this.cs_game_btn.Location = new System.Drawing.Point(433, 174);
             this.cs_game_btn.Name = "cs_game_btn";
             this.cs_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -142,7 +142,7 @@
             // val_game_btn
             // 
             this.val_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.val_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_valorant_240;
+            this.val_game_btn.Image = global::ProgramShop.Properties.Resources.ValorantIcon;
             this.val_game_btn.Location = new System.Drawing.Point(3, 345);
             this.val_game_btn.Name = "val_game_btn";
             this.val_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -154,7 +154,7 @@
             // sky_game_btn
             // 
             this.sky_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sky_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_skyrim_240;
+            this.sky_game_btn.Image = global::ProgramShop.Properties.Resources.ScyrimIcon;
             this.sky_game_btn.Location = new System.Drawing.Point(218, 345);
             this.sky_game_btn.Name = "sky_game_btn";
             this.sky_game_btn.Size = new System.Drawing.Size(209, 165);
@@ -166,7 +166,7 @@
             // gta_game_btn
             // 
             this.gta_game_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gta_game_btn.Image = global::ProgramShop.Properties.Resources.icons8_gta_5_240;
+            this.gta_game_btn.Image = global::ProgramShop.Properties.Resources.GtaIcon;
             this.gta_game_btn.Location = new System.Drawing.Point(433, 345);
             this.gta_game_btn.Name = "gta_game_btn";
             this.gta_game_btn.Size = new System.Drawing.Size(209, 165);

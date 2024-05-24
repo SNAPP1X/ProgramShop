@@ -27,23 +27,53 @@ namespace ProgramShop.DLC
 
         private void word_prog_btn_Click(object sender, EventArgs e)
         {
-              f.OpenChildForm(new WordProgramForm(), sender);
-            //WordProgramForm w = new WordProgramForm();
-            //w.Show();   
+            Product product = new Product
+            {
+                name = "Microsoft Word",
+                description = "Word processing software",
+                price = 99.99m,
+                photo = Properties.Resources.WordIcon
+            };
+
+            f.OpenChildForm(new ProductsForm(product), sender);
         }
 
         private void visio_prog_btn_Click(object sender, EventArgs e)
         {
-            f.OpenChildForm(new VisioProgramForm(), sender);
+            Product product = new Product
+            {
+                name = "Microsoft Word",
+                description = "Word processing software",
+                price = 99.99m,
+                photo = Properties.Resources.VisioIcon
+            };
+
+            f.OpenChildForm(new ProductsForm(product), sender);
         }
 
         private void ps_prog_btn_Click(object sender, EventArgs e)
         {
+            Product product = new Product
+            {
+                name = "Microsoft Word",
+                description = "Word processing software",
+                price = 99.99m,
+                photo = Properties.Resources.WordIcon
+            };
+
             f.OpenChildForm(new PsProgramForm(), sender);
         }
 
         private void vk_prog_btn_Click(object sender, EventArgs e)
         {
+            Product product = new Product
+            {
+                name = "Microsoft Word",
+                description = "Word processing software",
+                price = 99.99m,
+                photo = Properties.Resources.WordIcon
+            };
+
             f.OpenChildForm(new VkProgramForm(), sender);
         }
 

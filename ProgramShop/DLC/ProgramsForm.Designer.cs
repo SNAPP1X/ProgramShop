@@ -70,7 +70,7 @@
             // word_prog_btn
             // 
             this.word_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.word_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_word_2019_240;
+            this.word_prog_btn.Image = global::ProgramShop.Properties.Resources.WordIcon;
             this.word_prog_btn.Location = new System.Drawing.Point(3, 3);
             this.word_prog_btn.Name = "word_prog_btn";
             this.word_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -82,7 +82,7 @@
             // visio_prog_btn
             // 
             this.visio_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.visio_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_visio_2019_240;
+            this.visio_prog_btn.Image = global::ProgramShop.Properties.Resources.VisioIcon;
             this.visio_prog_btn.Location = new System.Drawing.Point(218, 3);
             this.visio_prog_btn.Name = "visio_prog_btn";
             this.visio_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -94,7 +94,7 @@
             // ps_prog_btn
             // 
             this.ps_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ps_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_photoshop_240;
+            this.ps_prog_btn.Image = global::ProgramShop.Properties.Resources.PhotoIcon;
             this.ps_prog_btn.Location = new System.Drawing.Point(433, 3);
             this.ps_prog_btn.Name = "ps_prog_btn";
             this.ps_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -106,7 +106,7 @@
             // vk_prog_btn
             // 
             this.vk_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vk_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_vk_240;
+            this.vk_prog_btn.Image = global::ProgramShop.Properties.Resources.VkIcon;
             this.vk_prog_btn.Location = new System.Drawing.Point(3, 174);
             this.vk_prog_btn.Name = "vk_prog_btn";
             this.vk_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -118,7 +118,7 @@
             // yout_prog_btn
             // 
             this.yout_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.yout_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_youtube_play_240;
+            this.yout_prog_btn.Image = global::ProgramShop.Properties.Resources.YoutubeIcon;
             this.yout_prog_btn.Location = new System.Drawing.Point(218, 174);
             this.yout_prog_btn.Name = "yout_prog_btn";
             this.yout_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -130,7 +130,7 @@
             // steam_prog_btn
             // 
             this.steam_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.steam_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_steam_240;
+            this.steam_prog_btn.Image = global::ProgramShop.Properties.Resources.SteamIcon;
             this.steam_prog_btn.Location = new System.Drawing.Point(433, 174);
             this.steam_prog_btn.Name = "steam_prog_btn";
             this.steam_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -142,7 +142,7 @@
             // vs_prog_btn
             // 
             this.vs_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vs_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_visual_studio_240;
+            this.vs_prog_btn.Image = global::ProgramShop.Properties.Resources.VisualIcon;
             this.vs_prog_btn.Location = new System.Drawing.Point(3, 345);
             this.vs_prog_btn.Name = "vs_prog_btn";
             this.vs_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -154,7 +154,7 @@
             // ij_prog_btn
             // 
             this.ij_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ij_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_intellij_idea_240;
+            this.ij_prog_btn.Image = global::ProgramShop.Properties.Resources.IntIcon;
             this.ij_prog_btn.Location = new System.Drawing.Point(218, 345);
             this.ij_prog_btn.Name = "ij_prog_btn";
             this.ij_prog_btn.Size = new System.Drawing.Size(209, 165);
@@ -166,7 +166,7 @@
             // pp_prog_btn
             // 
             this.pp_prog_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pp_prog_btn.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_powerpoint_2019_240;
+            this.pp_prog_btn.Image = global::ProgramShop.Properties.Resources.PowerIcon;
             this.pp_prog_btn.Location = new System.Drawing.Point(433, 345);
             this.pp_prog_btn.Name = "pp_prog_btn";
             this.pp_prog_btn.Size = new System.Drawing.Size(209, 165);

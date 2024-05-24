@@ -68,7 +68,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_word_2019_240;
+            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.WordIcon;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(138, 121);

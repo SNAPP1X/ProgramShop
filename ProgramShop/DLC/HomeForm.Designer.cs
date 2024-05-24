@@ -128,7 +128,7 @@
             // hunt_btn
             // 
             this.hunt_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.hunt_btn.Image = global::ProgramShop.Properties.Resources.klipartz_com__1_;
+            this.hunt_btn.Image = global::ProgramShop.Properties.Resources.HuntIcon;
             this.hunt_btn.Location = new System.Drawing.Point(434, 388);
             this.hunt_btn.Name = "hunt_btn";
             this.hunt_btn.Size = new System.Drawing.Size(92, 87);
@@ -140,7 +140,7 @@
             // dota_btn
             // 
             this.dota_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.dota_btn.Image = global::ProgramShop.Properties.Resources.icons8_дота_2_240;
+            this.dota_btn.Image = global::ProgramShop.Properties.Resources.DotaIcon;
             this.dota_btn.Location = new System.Drawing.Point(327, 388);
             this.dota_btn.Name = "dota_btn";
             this.dota_btn.Size = new System.Drawing.Size(92, 87);
@@ -152,7 +152,7 @@
             // osu_btn
             // 
             this.osu_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.osu_btn.Image = global::ProgramShop.Properties.Resources.icons8_osu_240;
+            this.osu_btn.Image = global::ProgramShop.Properties.Resources.OsuIcon;
             this.osu_btn.Location = new System.Drawing.Point(220, 388);
             this.osu_btn.Name = "osu_btn";
             this.osu_btn.Size = new System.Drawing.Size(92, 87);
@@ -164,7 +164,7 @@
             // forza_btn
             // 
             this.forza_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.forza_btn.Image = global::ProgramShop.Properties.Resources.icons8_forza_horizon_4_240;
+            this.forza_btn.Image = global::ProgramShop.Properties.Resources.ForzaIcon;
             this.forza_btn.Location = new System.Drawing.Point(113, 388);
             this.forza_btn.Name = "forza_btn";
             this.forza_btn.Size = new System.Drawing.Size(92, 87);
@@ -176,7 +176,7 @@
             // mine_btn
             // 
             this.mine_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.mine_btn.Image = global::ProgramShop.Properties.Resources.minecraft_logo_icon_248454;
+            this.mine_btn.Image = global::ProgramShop.Properties.Resources.MinecraftIcon;
             this.mine_btn.Location = new System.Drawing.Point(7, 388);
             this.mine_btn.Name = "mine_btn";
             this.mine_btn.Size = new System.Drawing.Size(92, 87);
@@ -188,7 +188,7 @@
             // ps_btn
             // 
             this.ps_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.ps_btn.Image = global::ProgramShop.Properties.Resources.icons8_photoshop_240;
+            this.ps_btn.Image = global::ProgramShop.Properties.Resources.PhotoIcon;
             this.ps_btn.Location = new System.Drawing.Point(434, 278);
             this.ps_btn.Name = "ps_btn";
             this.ps_btn.Size = new System.Drawing.Size(92, 87);
@@ -200,7 +200,7 @@
             // visio_btn
             // 
             this.visio_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.visio_btn.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_visio_2019_240;
+            this.visio_btn.Image = global::ProgramShop.Properties.Resources.VisioIcon;
             this.visio_btn.Location = new System.Drawing.Point(327, 278);
             this.visio_btn.Name = "visio_btn";
             this.visio_btn.Size = new System.Drawing.Size(92, 87);
@@ -212,7 +212,7 @@
             // word_btn
             // 
             this.word_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.word_btn.Image = global::ProgramShop.Properties.Resources.icons8_microsoft_word_2019_240;
+            this.word_btn.Image = global::ProgramShop.Properties.Resources.WordIcon;
             this.word_btn.Location = new System.Drawing.Point(220, 278);
             this.word_btn.Name = "word_btn";
             this.word_btn.Size = new System.Drawing.Size(92, 87);
@@ -224,7 +224,7 @@
             // vk_btn
             // 
             this.vk_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.vk_btn.Image = global::ProgramShop.Properties.Resources.icons8_vk_240;
+            this.vk_btn.Image = global::ProgramShop.Properties.Resources.VkIcon;
             this.vk_btn.Location = new System.Drawing.Point(113, 278);
             this.vk_btn.Name = "vk_btn";
             this.vk_btn.Size = new System.Drawing.Size(92, 87);
@@ -236,7 +236,7 @@
             // yout_btn
             // 
             this.yout_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.yout_btn.Image = global::ProgramShop.Properties.Resources.icons8_youtube_play_240;
+            this.yout_btn.Image = global::ProgramShop.Properties.Resources.YoutubeIcon;
             this.yout_btn.Location = new System.Drawing.Point(7, 278);
             this.yout_btn.Name = "yout_btn";
             this.yout_btn.Size = new System.Drawing.Size(92, 87);

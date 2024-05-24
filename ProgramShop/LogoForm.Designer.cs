@@ -38,7 +38,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(239)))), ((int)(((byte)(220)))));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.Yellow_and_Black_Online_Shop_Business_Logo;
+            this.pictureBox1.Image = global::ProgramShop.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(178, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(500, 500);
